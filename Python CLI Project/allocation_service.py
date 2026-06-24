@@ -25,6 +25,7 @@ def allocate_room():
             allocation_date
         )
     )
+    
     conn.commit()
     print("Room Allocated Successfully")
     cursor.close()
